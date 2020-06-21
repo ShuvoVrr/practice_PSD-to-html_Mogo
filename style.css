@@ -1,0 +1,88 @@
+.container {
+    max-width: 1100px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.heading-white {
+    color: #fff;
+}
+
+.heading-black {
+    color: #000;
+}
+
+.sub-line {
+    width: 60px;
+    height: 3px;
+    background: #fff;
+}
+
+/** HEADER section **/
+
+.header {
+    background: url(file/bg-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.hero .row {
+    margin-bottom: 100px;
+}
+
+.hero .nav-bar{
+    margin-left: auto;
+}
+
+.hero .nav-bar ul li{
+    margin-left: 50px;
+}
+
+.hero .nav-bar ul li:first-child {
+    margin-left: 0;
+}
+
+.hero .nav-bar ul li a{
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero .nav-bar ul li a:hover {
+    color: #fce38a;
+    text-decoration: none;
+    border-bottom: 2px solid #fce38a;
+}
+
+.hero .heading-area h2 {
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.hero .heading-area h1 {
+    width: 700px;
+    font-size: 120px;
+    font-weight: bolder;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.hero .btn {
+    width: 165px;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
