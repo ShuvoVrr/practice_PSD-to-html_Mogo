@@ -85,4 +85,55 @@ li {
 }
 
 
+/** ABOUT section **/
+
+.about {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.about .heading-area h2 {
+    font-size: 24px;
+    font-style: oblique;
+}
+
+.about .heading-area h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.about .sub-line {
+    background: #f38181;
+    margin-bottom: 40px;
+}
+
+.about .sub-heading {
+    width: 950px;
+    margin: auto;
+    margin-bottom: 90px;
+}
+
+.about .row img {
+    width: 340px;
+    height: 230px;
+    margin-right: 5px;
+}
+.about .row img:last-child {
+    margin-right: 0;
+}
+.about .row img.after {
+    width: 340px;
+    height: 220px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
 
