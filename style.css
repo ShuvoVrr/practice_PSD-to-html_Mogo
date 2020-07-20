@@ -1,10 +1,11 @@
-.container {
-    max-width: 1100px;
+/** Universal **/
+
+html {
+    scroll-behavior: smooth;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
+.container {
+    max-width: 1100px;
 }
 
 li {
@@ -64,12 +65,12 @@ li {
     border-bottom: 2px solid #fce38a;
 }
 
-.hero .heading-area h2 {
+.hero .hero-content h2 {
+    font-family: 'Kaushan Script', cursive;
     font-size: 50px;
-    font-style: oblique;
 }
 
-.hero .heading-area h1 {
+.hero .hero-content h1 {
     width: 700px;
     font-size: 120px;
     font-weight: bolder;
